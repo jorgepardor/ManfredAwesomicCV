@@ -250,8 +250,70 @@
         "startDate": "2022-01-01",
         "finishDate": "2022-05-03",
         "institution": {
-          "name": "4Geeks Academy España"
-        }
+          "name": "4Geeks Academy España",
+          "image": {
+            "alt": "download (1).png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/646218a9-a3fd-43df-967f-ad7eba1f38c3_download-(1).png"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "Adobe Illustrator",
+            "type": "technology"
+          },
+          {
+            "name": "Adobe Photoshop",
+            "type": "technology"
+          },
+          {
+            "name": "Bootstrap",
+            "type": "technology"
+          },
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "Flask",
+            "type": "technology"
+          },
+          {
+            "name": "Git",
+            "type": "technology"
+          },
+          {
+            "name": "HTML",
+            "type": "technology"
+          },
+          {
+            "name": "Heroku",
+            "type": "technology"
+          },
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          },
+          {
+            "name": "Linux",
+            "type": "technology"
+          },
+          {
+            "name": "Python",
+            "type": "technology"
+          },
+          {
+            "name": "React",
+            "type": "technology"
+          },
+          {
+            "name": "SlqAlchemy",
+            "type": "technology"
+          },
+          {
+            "name": "Tailwind",
+            "type": "technology"
+          }
+        ]
       },
       {
         "studyType": "officialDegree",

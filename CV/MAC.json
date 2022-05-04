@@ -278,7 +278,11 @@
         "institution": {
           "name": "UCV",
           "description": "Universidad Central de Venezuela",
-          "URL": "https://www.ucv.ve/"
+          "URL": "https://www.ucv.ve/",
+          "image": {
+            "alt": "SelloUCV.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/609c41b8-94aa-445f-b24f-352002ec247e_selloucv.png"
+          }
         }
       }
     ]

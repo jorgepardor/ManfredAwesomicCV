@@ -34,12 +34,32 @@
     ],
     "interestingFacts": [
       {
+        "topic": "A world of technology",
+        "fact": "Con relación al punto anterior, sigo bastante de cerca todo el mundo de la tecnología de consumo, con énfasis especial a lo relacionado a las Raspberry Pi. Me parece fascinante todo lo que puede conseguirse con un dispositivo tan pequeño y conocimientos de programación."
+      },
+      {
+        "topic": "Un diseñador gráfico que le gusta la programación, que raro... no?",
+        "fact": "Desde la época de la universidad, siempre tuve la espinita de aprender a programar. Durante muchos años, siempre pensamos en hacer la dupla perfecta entre mi hermano y yo, el programaria y yo me encargaría del diseño. Me gustaría concidir con él en algún trabajo formal, solo que ahora también programaré el frontend."
+      },
+      {
         "topic": "¿De dónde me viene eso de diseñar y crear con el ordenador?",
         "fact": "Desde niño me tiró mucho la maquetación, mi padre trabajaba en un periódico y ver a los maquetadores con sus Mac Color Displays me encantaba. Tener un monitor de 17 pugadas en esa época era algo espectacular."
       },
       {
         "topic": "¿Cuáles son tus principales herramientas de trabajo y cómo las utilizas?",
         "fact": "En mi caso depende un poco de la tarea que vaya a realizar, y si eso implica que tenga que trabajar con imágenes/vectores. Si el trabajo es gráfico, suelo empezar con una libreta, haciendo un breve boceto de lo que tengo que diseñar, seguido de Photoshop/Illustrator/Indesign, según el caso. Para programar uso Visual Studio Code (o gitpod), Figma/Adobe XD. Siempre utilizo Notion, para llevar un control de cualquier tarea que tenga que hacer."
+      },
+      {
+        "topic": "¿Cómo terminé trabajando en videojuegos?",
+        "fact": "Hice un curso sobre desarrollo de videjuegos del Ayuntamiento de A Coruña y me contrataron para desarrollar un proyecto de un RPG. Fui el encargado de UI y UX durante el desarrollo. En esa empresa, también trabajé en tareas de diseño gráfico y branding."
+      },
+      {
+        "topic": "Dogs, dogs, dogs!",
+        "fact": "Me encantan los animales. En mi infancia siempre tuve un perro a mi lado y valoro muchísimo las empresas ofrecen entornos pet friendly. Ahora mismo tengo un perro, Leeloo, pero mas adelante tengo muchas ganas de adoptar otro."
+      },
+      {
+        "topic": "Espera, que en 2 min aterriza un a320-220...",
+        "fact": "Soy un aviation geek. Todo lo relacionado a la aeronáutica me encanta. La tecnología e innovación que rodea ese sector me parece fascinante. Tengo un radar en casa con el que puedo ver todas las aeronaves que pasan sobre Galicia."
       },
       {
         "topic": "¿Qué recursos online (webs, blogs, apps, foros, etc) usas para ayudarte a desempeñar tu trabajo?",

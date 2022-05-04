@@ -77,8 +77,8 @@
         "organization": {
           "name": "Gato Salvaje Studio",
           "image": {
-            "alt": "Logo de Manfred",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/5366345a-5051-451b-9681-cba9e2fbc2d1_ap8_xjia_400x400.jpg"
+            "alt": "qiQBBJth_400x400.jpg",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/c609827d-b250-44ad-8894-0e75e8fffc43_qiqbbjth_400x400.jpg"
           },
           "URL": "http://gatostudio.games/"
         },
@@ -86,6 +86,7 @@
           {
             "name": "Diseñador Lead de UX/UI",
             "startDate": "2017-09-01",
+            "finishDate": "2022-02-01",
             "challenges": [
               {
                 "description": "Creacion de un flujo de trabajo en el departamento y compaginacion con el resto del flujo de trabajo."
@@ -293,6 +294,30 @@
     },
     "preferences": {
       "preferredCompetences": [
+        {
+          "name": "Adobe Creative Suite",
+          "type": "technology"
+        },
+        {
+          "name": "Bootstrap",
+          "type": "technology"
+        },
+        {
+          "name": "JavaScript",
+          "type": "technology"
+        },
+        {
+          "name": "Python",
+          "type": "technology"
+        },
+        {
+          "name": "React",
+          "type": "technology"
+        },
+        {
+          "name": "Tailwind",
+          "type": "technology"
+        },
         {
           "name": "agile",
           "type": "technology"

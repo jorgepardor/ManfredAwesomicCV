@@ -1,198 +1,605 @@
 {
-  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "settings": {
-    "language": "EN",
-    "MACVersion": "0.3"
+      "language": "ES",
+      "lastUpdate": "2022-02-28",
+      "MACVersion": "0.3"
   },
   "aboutMe": {
-    "profile": {
-      "name": "Jorge Luis",
-      "surnames": "Pardo Rodriguez",
-      "title": "Junior Full Stack Developer && UIUX Designer. Creative heart.",
-      "description": "I am a digital designer who has been working in videogames for 5 years as a UI/UX Designer. Following my recent completion of a full stack bootcamp, I am looking to expand my knowledge and become a better web programmer.\n",
-      "location": {
-        "notes": "A Coruña, Spain"
-      }
-    },
-    "relevantLinks": [
-      {
-        "type": "github",
-        "URL": "https://github.com/jorgepardor"
+      "profile": {
+          "name": "Jorge Luis",
+          "surnames": "Pardo Rodriguez",
+          "title": "Junior Full Stack Developer && UIUX Designer. Creative heart",
+          "description": "Soy un programador full stack y diseñador UI/UX.\n\n Me gradué de diseñador gráfico en 2012 y desde entonces he trabajado en proyectos relacionados a la programación y el diseño. Trabajé varios años compaginando tareas tanto de diseño offline (branding, impresos) como online (Desarrollo web con html/css, wordpress) para varios clientes.\n\n Durante los últimos 5 años he trabajado en una empresa de videojuegos como Diseñador UI/UX, desarrollando un RPG en Unreal Engine. He participado también en tareas de comunicación gráfica y en conferencias de desarrolladores en esa empresa.\n\n Actualmente he terminado mi formación como desarrollador full stack, en el que he profundizado mis conocimientos en Javascript, Tailwind, React con Flux, Python, SQL y varias tecnologías más que me han proporcionado muchos recursos para integrarlos a mis habilidades profesionales.\n",
+          "avatar": {
+              "alt": "foto de Jorge Pardo",
+              "link": "https://res.cloudinary.com/jorgepardor/image/upload/v1651654050/14500640_10153702169466307_3937322170862077724_o_hidz7e.jpg"
+          },
+          "birthday": "1985-10-10"
       },
-      {
-        "type": "linkedin",
-        "URL": "https://www.linkedin.com/in/jorgeluispardo/"
-      }
-    ],
-    "interestingFacts": [
-      {
-        "topic": "I'm a total tech geek 🤓",
-        "fact": "I am very interested in everything related to consumer technology (mobile phones, computers, raspberry pi, etc.) as tools that make life easier and expand our horizons.\n\n"
-      },
-      {
-        "topic": "I enjoy classic video games, especially shoot'em ups and beat'em ups.",
-        "fact": "I love a lot of games from the early 90s, but Carrier Air Wing, the Aleste Saga, and Cadillacs & Dinosaurs hold a special place in my heart"
-      }
-    ]
+      "relevantYearsOfExperience": 5,
+      "relevantLinks": [
+          {
+              "type": "linkedin",
+              "URL": "https://www.linkedin.com/in/jorgeluispardo/",
+              "description": "Mi perfil en LinkedIn"
+          },
+          {
+              "type": "twitter",
+              "URL": "https://twitter.com/jorgepardor",
+              "description": "Mi cuenta de Twitter"
+          },
+          {
+              "type": "github",
+              "URL": "https://github.com/jorgepardor",
+              "description": "Mi cuenta en GitHub"
+          },
+          {
+              "type": "website",
+              "URL": "http://jorgepardo.dev",
+              "description": "Mi Web / Coming soon"
+          }
+      ],
+      "significativeRelationships": [
+          {
+              "name": "Alejandro",
+              "surnames": "Pardo",
+              "title": "Senior Backend Developer en factorial hr",
+              "description": "Ale es uno de mis referentes sobre temas de programación, desde que él empezó en este mundo, siempre quise seguirle el paso, ya que considero que es un profesional con un talento enorme. Hemos prototipado varios proyectos, como la app GoBus (https://www.behance.net/gallery/105461587/GOBUS-Proto).\n",
+              "contact": {
+                  "publicProfiles": [
+                      {
+                          "type": "linkedin",
+                          "URL": "https://www.linkedin.com/in/alejandropardor/"
+                      },
+                      {
+                          "type": "other",
+                          "URL": "https://alejandropardo.dev/"
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "Elizabeth",
+              "surnames": "Lara González",
+              "title": "Diseñador Gráfico en Premios El Suplemento",
+              "description": "Siempre que tengo alguna duda con respecto al enfoque gráfico en alguno de mis trabajos, sé que puedo contar con la opinión de Eli. Es una de mis referentes principales a nivel de diseño.\n",
+              "contact": {
+                  "publicProfiles": [
+                      {
+                          "type": "linkedin",
+                          "URL": "https://www.linkedin.com/in/elizabeth-lara-gonzalez-12b14b36/"
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "Marcos",
+              "surnames": "Serrano",
+              "title": "Senior Backend Engeneer",
+              "description": "Profesor y mentor en 4Geeks Academy. Marcos ha sido uno de los profesionales de los que mas he aprendido programación y es mi mentor en todos los temas relacionados.\n",
+              "contact": {
+                  "publicProfiles": [
+                      {
+                          "type": "linkedin",
+                          "URL": "https://www.linkedin.com/in/marcosserrano/"
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "Ismael",
+              "surnames": "Barbeito Vázquez",
+              "title": "Technical Game Designer en Mighty Polygon",
+              "description": "Excompañero de trabajo con el que mantengo una relación de amistad, al cual admiro y comparto la visión que tiene sobre vida en el sector de la programación y el enfoque de la interacción laboral.\n",
+              "contact": {
+                  "publicProfiles": [
+                      {
+                          "type": "linkedin",
+                          "URL": "https://www.linkedin.com/in/ismael-barbeito-v%C3%A1zquez-471279b1/"
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "Javier",
+              "surnames": "Rey Neira",
+              "title": "Gameplay Programmer at Tequila Works",
+              "description": "Viere es igual de amante de la tecnología y de todo lo que ella implica que yo. Después de trabajar juntos durante unos años, mantememos el contacto y es una de las personas a las que acudo para contrastar mi punto de vista sobre el mundo de la programación.\n",
+              "contact": {
+                  "publicProfiles": [
+                      {
+                          "type": "linkedin",
+                          "URL": "https://www.linkedin.com/in/javierreyneira/"
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "Cristina",
+              "surnames": "Arbones",
+              "title": "UI Artist en Gato Salvaje Studio",
+              "description": "Tuve la suerte de trabajar varios años con Cris en mi equipo y para mi, tiene la mezcla perfecta entre habilidades artísticas y técnicas. Me inspira mucho su nivel de compromiso y su capacidad de resolución de tareas.\n",
+              "contact": {
+                  "publicProfiles": [
+                      {
+                          "type": "linkedin",
+                          "URL": "https://www.linkedin.com/in/cristinaarbones/"
+                      }
+                  ]
+              }
+          }
+      ],
+      "interestingFacts": [
+          {
+              "topic": "Mi primer ordenador / consola / movil?",
+              "fact": "Una IBM 286, una Super Nintendo y un Motorola Elite"
+          },
+          {
+              "fact": "Antes de estudiar diseño, estudié y trabajé como contable durante casi 10 años. Pese a que la profesión no era lo mío, aprendí muchísimo sobre gestión del equipo de trabajo, sobre presupuestos y administración."
+          },
+          {
+              "topic": "¿De dónde me viene eso de diseñar y crear con el ordenador?",
+              "fact": "Desde niño me tiró mucho la maquetación, mi padre trabajaba en un periódico y ver a los maquetadores con sus Mac Color Displays me encantaba. Tener un monitor de 17 pugadas en esa época era algo espectacular."
+          },
+          {
+              "fact": "Hice un curso sobre desarrollo de videjuegos del Ayuntamiento de A Coruña y me contrataron para desarrollar un proyecto de un RPG. Fui el encargado de UI y UX durante el desarrollo. En esa empresa, también trabajé en tareas de diseño gráfico y branding."
+          },
+          {
+              "fact": "Desde la época de la universidad, siempre tuve la espinita de aprender a programar. Durante muchos años, siempre pensamos en hacer la dupla perfecta entre mi hermano y yo, el programaria y yo me encargaría del diseño. Me gustaría concidir con él en algún trabajo formal, solo que ahora también programaré el frontend."
+          },
+          {
+              "fact": "Me encantan los animales. En mi infancia siempre tuve un perro a mi lado y valoro muchísimo las empresas ofrecen entornos pet friendly. Ahora mismo tengo un perro, Leeloo, pero mas adelante tengo muchas ganas de adoptar otro."
+          },
+          {
+              "fact": "Soy un aviation geek. Todo lo relacionado a la aeronáutica me encanta. La tecnología e innovación que rodea ese sector me parece fascinante. Tengo un radar en casa con el que puedo ver todas las aeronaves que pasan sobre Galicia."
+          },
+          {
+              "fact": "Con relación al punto anterior, sigo bastante de cerca todo el mundo de la tecnología de consumo, con énfasis especial a lo relacionado a las Raspberry Pi. Me parece fascinante todo lo que puede conseguirse con un dispositivo tan pequeño y conocimientos de programación."
+          },
+          {
+              "fact": "Participé en una convencion de desarrolladores de videojuegos (Devcom) en 2019, enmarcada dentro de la Gamescom de ese año. Las presentaciones en las que participé allí (2018 y 2019) fueron de una gran importancia para mi, ya que ma permitieron recolectar feedback de potenciales usuarios directamente de ellos en una fase crítica del desarrollo."
+          },
+          {
+              "topic": "¿Cuáles son tus principales herramientas de trabajo y cómo las utilizas?",
+              "fact": "En mi caso depende un poco de la tarea ue vaya a realizar, y si eso implica que tenga que trabajar con imágenes/vetores. Si el trabajo es gráfico, suelo empezar con una libreta, haciendo un breve boceto de lo que tengo que diseñar, seguido de Photoshop/Illustrator/Indesign, según el caso. Para programar uso Visual Studio Code (o gitpod), Figma/Adobe XD. Siempre utilizo Notion, para llevar un control de cualquier tarea que tenga que hacer."
+          },
+          {
+              "topic": "¿Qué recursos online (webs, blogs, apps, foros, etc) usas para ayudarte a desempeñar tu trabajo?",
+              "fact": "Suelo informarme de novedades relacionadas al sector a traves de Twitter, Youtube y Twitch. Sobre todo en Youtube, donde canales como Fireship me mantienen al día con las novedades de la industria. Para resolver otro tipo de dudas utilizo StackOverflow o Reddit. Si no encuentras nada en esas dos websites, probablemente estés formulando mal la pregunta."
+          }
+      ]
+  },
+  "experience": {
+      "jobs": [
+          {
+              "organization": {
+                  "name": "Gato Salvaje Studio",
+                  "description": "Desarrolladora de videojuegos indie",
+                  "URL": "http://gatostudio.games/",
+                  "image": {
+                      "alt": "Logo de Manfred",
+                      "link": "https://pbs.twimg.com/profile_images/946845160004112384/ap8_xjIa_400x400.jpg"
+                  },
+                  "location": {
+                      "country": "ES",
+                      "region": "A Coruña",
+                      "municipality": "A Coruña",
+                      "postalCode": "15001",
+                      "address": "Centro de Empresas Papagayo, A Coruña"
+                  }
+              },
+              "type": "startup",
+              "roles": [
+                  {
+                      "name": "Diseñador Lead de UX/UI",
+                      "startDate": "2017-09-01",
+                      "challenges": [
+                          {
+                              "description": "Creacion de un flujo de trabajo en el departamento y compaginacion con el resto del flujo de trabajo.",
+                              "actions": [
+                                  "Creación de un equipo de trabajo y procesos de contratación.",
+                                  "Selección de workflow y procesos de desarrollo.",
+                                  "Estudio de herramientas y tecnologías propias del departamento y la viabilidad de uso con respecto al proyecto."
+                              ]
+                          },
+                          {
+                              "description": "Desarrollo de prototipos iniciales para testing de funciones específicas a nivel interno.",
+                              "actions": [
+                                  "Desarrollo de prototipos para testing, de forma rápida, para poner a prueba conceptos e ideas de los equipos involucrados en el proyecto..",
+                                  "Investigación sobre User Experience relacionada específicamente al género del proyecto.",
+                                  "Especificación de requisitos y componentes a desarrollar."
+                              ]
+                          },
+                          {
+                              "description": "Creación, maquetación y desarrollo de los elementos de UX.",
+                              "actions": [
+                                  "Creación de wireframes y prototipado extenso de todas las funcionalidades.",
+                                  "Desarrollo de la primera iteración gráfica de la Interfaz."
+                              ]
+                          },
+                          {
+                              "description": "Desarrollo de Interfaz de usuario.",
+                              "actions": [
+                                  "Correcciones al flujo de usabilidad de la aplicación. Rediseño de componentes y fuincionalidades de acuerdo al feedback de usuarios.",
+                                  "Maquetación definitiva de zonas en la interfaz y aplicación del estilo visual a los elementos en pantalla.",
+                                  "Desarrollo de assets de diseño para la Interfaz. (Imagenes, iconos, etc.)"
+                              ]
+                          },
+                          {
+                              "description": "Revisión y correcciones relacionadas con el desarrollo del proyecto.",
+                              "actions": [
+                                  "Inclusión en la interfaz de nuevas funcionalidades en el proyecto.",
+                                  "Desarrollo de assets de diseño para la Interfaz. (Imagenes, iconos, etc.)"
+                              ]
+                          },
+                          {
+                              "description": "Mantenimiento regular a elementos de interfaz.",
+                              "actions": [
+                                  "Adaptación de elementos de interfaz para nuevas funcionalidades en posteriores actualizaciones.",
+                                  "Correcciones menores, como resultado del departamento de testing."
+                              ]
+                          }
+                      ],
+                      "competences": [
+                          {
+                              "name": "Unreal Engine",
+                              "type": "tool"
+                          },
+                          {
+                              "name": "Adobe Illustrator",
+                              "type": "tool"
+                          },
+                          {
+                              "name": "Adobe Photoshop",
+                              "type": "tool"
+                          },
+                          {
+                              "name": "Adobe XD",
+                              "type": "tool"
+                          },
+                          {
+                              "name": "Google Docs",
+                              "type": "tool"
+                          },
+                          {
+                              "name": "Microsoft Tasks",
+                              "type": "tool"
+                          },
+                          {
+                              "name": "Notion",
+                              "type": "tool"
+                          },
+                          {
+                              "name": "Wordpress",
+                              "type": "tool"
+                          },
+                          {
+                              "name": "HTML",
+                              "type": "technology"
+                          },
+                          {
+                              "name": "CSS",
+                              "type": "technology"
+                          },
+                          {
+                              "name": "Javascript",
+                              "type": "technology"
+                          },
+                          {
+                              "name": "Git",
+                              "type": "technology"
+                          }
+                      ],
+                      "referrals": [
+                          {
+                              "name": "Ismael",
+                              "surnames": "Barbeito Vázquez",
+                              "title": "Ex Jefe del departamento de Lógica en Gato Salvaje Studio",
+                              "contact": {
+                                  "publicProfiles": [
+                                      {
+                                          "type": "linkedin",
+                                          "URL": "https://www.linkedin.com/in/ismael-barbeito-v%C3%A1zquez-471279b1/"
+                                      }
+                                  ]
+                              }
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
   },
   "knowledge": {
-    "languages": [
-      {
-        "name": "English"
-      },
-      {
-        "name": "Spanish"
-      }
-    ],
-    "hardSkills": [
-      {
-        "skill": {
-          "name": "Python",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "JavaScript",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "React",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "HTML",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "CSS",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Windows",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Linux",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Bootstrap",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Figma",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Adobe Photoshop",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Adobe Illustrator",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Adobe InDesign",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Git",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Flask",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Tailwind",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Adobe XD",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Visual Studio Code",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "MacOS",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "SlqAlchemy",
-          "type": "technology"
-        }
-      }
-    ]
+      "languages": [
+          {
+              "name": "ES",
+              "level": "Native or bilingual proficiency"
+          },
+          {
+              "name": "EN",
+              "level": "Full professional proficiency"
+          },
+          {
+              "name": "GL",
+              "level": "Elementary proficiency"
+          }
+      ],
+      "hardSkills": [
+          {
+              "skill": {
+                  "name": "UX Prototiping",
+                  "type": "technology"
+              },
+              "level": "high"
+          },
+          {
+              "skill": {
+                  "name": "HTML",
+                  "type": "technology"
+              },
+              "level": "high"
+          },
+          {
+              "skill": {
+                  "name": "CSS",
+                  "type": "technology"
+              },
+              "level": "high"
+          },
+          {
+              "skill": {
+                  "name": "Javascript",
+                  "type": "technology"
+              },
+              "level": "intermediate"
+          },
+          {
+              "skill": {
+                  "name": "Adobe Illustrator",
+                  "type": "tool"
+              },
+              "level": "expert"
+          },
+          {
+              "skill": {
+                  "name": "Adobe Photoshop",
+                  "type": "tool"
+              },
+              "level": "expert"
+          },
+          {
+              "skill": {
+                  "name": "Adobe Indesign",
+                  "type": "tool"
+              },
+              "level": "high"
+          },
+          {
+              "skill": {
+                  "name": "Figma",
+                  "type": "tool"
+              },
+              "level": "high"
+          },
+          {
+              "skill": {
+                  "name": "GIT",
+                  "type": "technology"
+              },
+              "level": "high"
+          }
+      ],
+      "softSkills": [
+          {
+              "skill": {
+                  "name": "Team Management",
+                  "type": "practice",
+                  "description": "En todas las empresas en las que he currado, aunque sea durante un período de tiempo breve, he liderado equipos de trabajo. En Gato Salvaje fuí jefe de equipo durante 4 años y es una experiencia que me ha gustado mucho y me ha permitido aprender muchísimo."
+              },
+              "level": "expert"
+          },
+          {
+              "skill": {
+                  "name": "Hay que saber cuidar mucho los detalles",
+                  "type": "practice",
+                  "description": "Soy exigente con los detalles. Me gusta dedicarle tiempo a pulir el resultado de un objetivo después de alcanzarlo, ya que la experiencia que le produce al usuario un producto bien finalizado siempre merece la pena. Creo que es la clave para un producto exitoso."
+              },
+              "level": "expert"
+          },
+          {
+              "skill": {
+                  "name": "People first",
+                  "type": "practice",
+                  "description": "Cuando uno está contento y se siente arropado dentro de su equipo y de su empresa, da rienda suelta a su creatividad y sus capacidades de forma plena. Una actitud de trabajo más humana beneficia a los empleados y, sobre todo, a la empresa."
+              },
+              "level": "expert"
+          },
+          {
+              "skill": {
+                  "name": "Comunicación, comunicación, comunicación!",
+                  "type": "practice",
+                  "description": "Siempre intento comunicar lo que hago, cómo lo hago y por qué lo hago, de la forma mas efectiva posible. Ya sea de forma oral o escrita, considero muy importante la comunicación intra e interdepartamental dentro de una empresa. Es crítico de cara a un desarrollo efectivo"
+              },
+              "level": "expert"
+          }
+      ],
+      "studies": [
+          {
+              "studyType": "officialDegree",
+              "degreeAchieved": false,
+              "name": "Contaduría Pública",
+              "description": "",
+              "startDate": "2002-09-15",
+              "finishDate": "2008-04-19",
+              "institution": {
+                  "name": "UCV",
+                  "description": "Universidad Central de Venezuela",
+                  "URL": "https://www.ucv.ve/",
+                  "image": {
+                      "alt": "logo de la UCV",
+                      "link": "https://en.wikipedia.org/wiki/Central_University_of_Venezuela#/media/File:SelloUCV.png"
+                  },
+                  "location": {
+                      "country": "VE",
+                      "region": "Caracas"
+                  }
+              }
+          },
+          {
+              "studyType": "officialDegree",
+              "degreeAchieved": true,
+              "name": "Técnico Superior en Diseño Gráfico",
+              "description": "",
+              "startDate": "2010-01-10",
+              "finishDate": "2012-11-30",
+              "institution": {
+                  "name": "CUMT",
+                  "description": "Colegio Universitario Monseñor de Talavera",
+                  "URL": "https://www.cumt.edu",
+                  "image": {
+                      "alt": "logo del CUMT",
+                      "link": "https://static.wixstatic.com/media/16c70f_b67530659a8447fcbc2eff4c1c8ce6c9~mv2.jpg/v1/fill/w_280,h_280,al_c,lg_1,q_80,enc_auto/16c70f_b67530659a8447fcbc2eff4c1c8ce6c9~mv2.jpg"
+                  },
+                  "location": {
+                      "country": "VE",
+                      "region": "Caracas"
+                  }
+              }
+          },
+          {
+              "studyType": "certification",
+              "degreeAchieved": true,
+              "name": "Programa de Desarrollador de Software Full Stack",
+              "description": "",
+              "startDate": "2022-01-01",
+              "finishDate": "2022-05-03",
+              "institution": {
+                  "name": "4Geeks Academy España",
+                  "description": "",
+                  "location": {
+                      "country": "ES",
+                      "region": "Madrid",
+                      "municipality": "Madrid"
+                  }
+              }
+          }
+      ]
   },
   "careerPreferences": {
-    "contact": {
-      "publicProfiles": [
-        {
-          "type": "linkedin",
-          "URL": "https://www.linkedin.com/in/jorgeluispardo/"
-        }
+      "contact": {
+          "publicProfiles": [
+              {
+                  "type": "manfred",
+                  "URL": "https://www.getmanfred.com/profile/jorgepardor"
+              }
+          ]
+      },
+      "status": "searchingActively",
+      "requirements": {
+          "compensation": {
+              "salary": {
+                  "currency": "EUR",
+                  "from": 23000
+              },
+              "perks": {
+                  "mustHave": [
+                      "Horario Flexible",
+                      "Posibilidad de trabajo remoto"
+                  ],
+                  "niceToHave": [
+                      "Seguro Médico",
+                      "Formación constante"
+                  ]
+              }
+          },
+          "contractTypes": [
+              "permanent"
+          ],
+          "location": {
+              "remoteOnly": false,
+              "openToRelocate": true,
+              "openToRemote": true,
+              "workingAreas": [
+                  {
+                      "location": {
+                          "country": "ES",
+                          "region": "Galicia",
+                          "municipality": "A Coruña"
+                      },
+                      "distanceFromMunicipality": {
+                          "unit": "Km",
+                          "amount": 30
+                      }
+                  },
+                  {
+                      "location": {
+                          "country": "ES"
+                      }
+                  },
+                  {
+                      "location": {
+                          "country": "DE"
+                      }
+                  },
+                  {
+                      "location": {
+                          "country": "IT"
+                      }
+                  }
+              ],
+              "comments": "My preference is to work remotely, but I may consider moving depending on the project."
+          }
+      },
+      "preferences": {
+          "preferredCompetences": [
+              {
+                  "name": "Agile",
+                  "type": "practice",
+                  "description": "Gestión ágil"
+              }
+          ],
+          "discardedCompetences": [
+              {
+                  "name": "nft",
+                  "type": "domain"
+              },
+              {
+                  "name": "cripto monedas",
+                  "type": "domain"
+              },
+              {
+                  "name": "juegos de azar",
+                  "type": "domain"
+              },
+              {
+                  "name": "tabaco",
+                  "type": "domain"
+              },
+              {
+                  "name": "industria armamentística",
+                  "type": "domain"
+              },
+              {
+                  "name": "partidos políticos",
+                  "type": "domain"
+              }
+          ],
+          "preferredOrganizations": [
+              "startup",
+              "academicalInstitution"
+          ]
+      },
+      "goals": [
+          {
+              "description": "Me gustaría trabajar en una empresa que me permita aprender cada día, independientemente de mi experiencia, y que me motive a cada día dar lo mejor de mi mismo."
+          },
+          {
+              "description": "Valoro mucho la transparencia corporativa. Me parece que conocer los aciertos y fracasos de mis equipos permiten a todos los trabajadores tener la perspectiva correcta de cara a los proyectos."
+          },
+          {
+              "description": "Creo que una organización siempre es mejor centrarse en cumplir sus objetivos, y no obsesionarse con las horas que sus empleados pasan delante de una pantalla."
+          }
       ]
-    },
-    "preferences": {
-      "preferredCompetences": [
-        {
-          "name": "Adobe Illustrator",
-          "type": "technology"
-        },
-        {
-          "name": "Figma",
-          "type": "technology"
-        },
-        {
-          "name": "JavaScript",
-          "type": "technology"
-        },
-        {
-          "name": "Python",
-          "type": "technology"
-        },
-        {
-          "name": "React",
-          "type": "technology"
-        }
-      ]
-    }
   }
 }

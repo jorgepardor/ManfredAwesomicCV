@@ -316,6 +316,35 @@
         ]
       },
       {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "Curso de desarrollo de videojuegos",
+        "startDate": "2016-07-01",
+        "finishDate": "2017-08-01",
+        "institution": {
+          "name": "Gato Salvaje SL / Concello de A Coruña",
+          "description": "Participé en el 1er Curso de Desarrollo de Videojuegos, impartido por Gato Salvaje, en el que impartieron los fundamentos del desarrollo de desarrollo de videojuegos, modelado y animación 3d, marketing y monetización de aplicaciones. \n\nAl concluir el curso, inicié una fase de prácticas en el Vivero de Empresas del Papagayo, donde participé en el desarrollo de dos demos de videojuegos, en el departamento de UI/UX. ",
+          "image": {
+            "alt": "qiQBBJth_400x400.jpg",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/624041c4-b848-4ddd-86c2-dd2a9aea5051_qiqbbjth_400x400.jpg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "Adobe Creative Suite",
+            "type": "technology"
+          },
+          {
+            "name": "Git",
+            "type": "technology"
+          },
+          {
+            "name": "Unreal",
+            "type": "technology"
+          }
+        ]
+      },
+      {
         "studyType": "officialDegree",
         "degreeAchieved": true,
         "name": "Técnico Superior en Diseño Gráfico",

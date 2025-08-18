@@ -168,12 +168,6 @@
       },
       {
         "skill": {
-          "name": "Adobe InDesign",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "Adobe Photoshop",
           "type": "technology"
         }
@@ -216,12 +210,6 @@
       },
       {
         "skill": {
-          "name": "Python",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "React",
           "type": "technology"
         }
@@ -235,6 +223,12 @@
       {
         "skill": {
           "name": "Tailwind",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Vue",
           "type": "technology"
         }
       }
@@ -432,6 +426,28 @@
     "status": "searchingActively"
   },
   "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "CSS",
+        "type": "technology"
+      },
+      {
+        "name": "JavaScript",
+        "type": "technology"
+      },
+      {
+        "name": "React",
+        "type": "technology"
+      },
+      {
+        "name": "Tailwind",
+        "type": "technology"
+      },
+      {
+        "name": "Vue",
+        "type": "technology"
+      }
+    ],
     "desiredJobDescription": "My ideal job would give me challenges that will allow me to utilize my creativity every day, and that will motivate me to grow and learn constantly.",
     "bookmarks": [
       {

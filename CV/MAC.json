@@ -1,8 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
   "settings": {
     "language": "EN",
-    "MACVersion": "0.3"
+    "MACVersion": "0.5"
   },
   "aboutMe": {
     "profile": {
@@ -11,27 +11,16 @@
       "title": "Junior Full Stack Developer && UIUX Designer. Creative heart",
       "description": "Soy un programador full stack y diseñador UI/UX.\n\n Me gradué de diseñador gráfico en 2012 y desde entonces he trabajado en proyectos relacionados a la programación y el diseño. Trabajé varios años compaginando tareas tanto de diseño offline (branding, impresos) como online (Desarrollo web con html/css, wordpress) para varios clientes.\n\n Durante los últimos 5 años he trabajado en una empresa de videojuegos como Diseñador UI/UX, desarrollando un RPG en Unreal Engine. He participado también en tareas de comunicación gráfica y en conferencias de desarrolladores en esa empresa.\n\n Actualmente he terminado mi formación como desarrollador full stack, en el que he profundizado mis conocimientos en Javascript, Tailwind, React con Flux, Python, SQL y varias tecnologías más que me han proporcionado muchos recursos para integrarlos a mis habilidades profesionales.\n",
       "avatar": {
-        "alt": "foto de Jorge Pardo",
-        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/13fae4c1-564e-4cfe-8733-5ceb9c00dce6_14500640_10153702169.jpg"
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/13fae4c1-564e-4cfe-8733-5ceb9c00dce6_14500640_10153702169.jpg",
+        "alt": "foto de Jorge Pardo"
       },
       "location": {
-        "notes": "A Coruña, Spain"
+        "notes": "Autocompleted using Google Maps API (id: ChIJTVd08fx8Lg0R7t9cCQ01R2o)",
+        "country": "España",
+        "region": "Galicia",
+        "municipality": "La Coruña"
       }
     },
-    "relevantLinks": [
-      {
-        "type": "github",
-        "URL": "https://github.com/jorgepardor"
-      },
-      {
-        "type": "twitter",
-        "URL": "https://twitter.com/jorgepardor"
-      },
-      {
-        "type": "linkedin",
-        "URL": "https://www.linkedin.com/in/jorgeluispardo/"
-      }
-    ],
     "interestingFacts": [
       {
         "topic": "A world of technology",
@@ -69,6 +58,28 @@
         "topic": "Mi primer ordenador / consola / movil?",
         "fact": "Una IBM 286 (heredada, obviamente), una Super Nintendo y un Motorola Elite (heredado, no podía ser de otra forma)"
       }
+    ],
+    "recommendations": [
+      {
+        "title": "https://fireship.io/",
+        "type": "other",
+        "URL": "https://fireship.io/",
+        "summary": "¿Quieres aprender sobre programación? No lo dudes, aquí aprenderás y estarás actualizado en cuanto a tendencias actuales."
+      }
+    ],
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/jorgeluispardo/"
+      },
+      {
+        "type": "github",
+        "URL": "https://github.com/jorgepardor"
+      },
+      {
+        "type": "twitter",
+        "URL": "https://twitter.com/jorgepardor"
+      }
     ]
   },
   "experience": {
@@ -77,8 +88,8 @@
         "organization": {
           "name": "Gato Salvaje Studio",
           "image": {
-            "alt": "qiQBBJth_400x400.jpg",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/c609827d-b250-44ad-8894-0e75e8fffc43_qiqbbjth_400x400.jpg"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/c609827d-b250-44ad-8894-0e75e8fffc43_qiqbbjth_400x400.jpg",
+            "alt": "qiQBBJth_400x400.jpg"
           },
           "URL": "http://gatostudio.games/"
         },
@@ -102,7 +113,7 @@
                 "type": "technology"
               },
               {
-                "name": "Adobe XD",
+                "name": "Adobe Xd",
                 "type": "technology"
               },
               {
@@ -114,10 +125,6 @@
                 "type": "technology"
               },
               {
-                "name": "GoogleDocs",
-                "type": "technology"
-              },
-              {
                 "name": "HTML",
                 "type": "technology"
               },
@@ -126,19 +133,11 @@
                 "type": "technology"
               },
               {
-                "name": "Microsoft Tasks",
-                "type": "technology"
-              },
-              {
-                "name": "Unreal Engine",
+                "name": "Notion",
                 "type": "technology"
               },
               {
                 "name": "WordPress",
-                "type": "technology"
-              },
-              {
-                "name": "notion",
                 "type": "technology"
               }
             ]
@@ -150,34 +149,32 @@
   "knowledge": {
     "languages": [
       {
-        "name": "English"
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Limited working proficiency"
       },
       {
-        "name": "Spanish"
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Limited working proficiency"
       }
     ],
     "hardSkills": [
       {
         "skill": {
-          "name": "Python",
+          "name": "Adobe Illustrator",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "JavaScript",
+          "name": "Adobe InDesign",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "React",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "HTML",
+          "name": "Adobe Photoshop",
           "type": "technology"
         }
       },
@@ -195,19 +192,7 @@
       },
       {
         "skill": {
-          "name": "Adobe Photoshop",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Adobe Illustrator",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Adobe InDesign",
+          "name": "Flask",
           "type": "technology"
         }
       },
@@ -219,7 +204,31 @@
       },
       {
         "skill": {
-          "name": "Flask",
+          "name": "HTML",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Python",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "React",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQLAlchemy",
           "type": "technology"
         }
       },
@@ -228,34 +237,67 @@
           "name": "Tailwind",
           "type": "technology"
         }
-      },
-      {
-        "skill": {
-          "name": "SlqAlchemy",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "UX Prototiping",
-          "type": "technology"
-        }
       }
     ],
     "studies": [
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Contaduría Pública",
+        "startDate": "2002-09-15",
+        "institution": {
+          "name": "UCV",
+          "description": "Universidad Central de Venezuela",
+          "URL": "https://www.ucv.ve/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/609c41b8-94aa-445f-b24f-352002ec247e_selloucv.png",
+            "alt": "SelloUCV.png"
+          }
+        },
+        "finishDate": "2008-04-19"
+      },
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "Curso de desarrollo de videojuegos",
+        "startDate": "2016-07-01",
+        "institution": {
+          "name": "Gato Salvaje SL / Concello de A Coruña",
+          "description": "Participé en el 1er Curso de Desarrollo de Videojuegos, impartido por Gato Salvaje, en el que impartieron los fundamentos del desarrollo de desarrollo de videojuegos, modelado y animación 3d, marketing y monetización de aplicaciones. \n\nAl concluir el curso, inicié una fase de prácticas en el Vivero de Empresas del Papagayo, donde participé en el desarrollo de dos demos de videojuegos, en el departamento de UI/UX. ",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/624041c4-b848-4ddd-86c2-dd2a9aea5051_qiqbbjth_400x400.jpg",
+            "alt": "qiQBBJth_400x400.jpg"
+          }
+        },
+        "finishDate": "2017-08-01",
+        "linkedCompetences": [
+          {
+            "name": "Adobe Creative Suite",
+            "type": "technology"
+          },
+          {
+            "name": "Git",
+            "type": "technology"
+          },
+          {
+            "name": "Unreal",
+            "type": "technology"
+          }
+        ]
+      },
       {
         "studyType": "certification",
         "degreeAchieved": true,
         "name": "Programa de Desarrollador de Software Full Stack",
         "startDate": "2022-01-01",
-        "finishDate": "2022-05-03",
         "institution": {
           "name": "4Geeks Academy España",
           "image": {
-            "alt": "download (1).png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/646218a9-a3fd-43df-967f-ad7eba1f38c3_download-(1).png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/646218a9-a3fd-43df-967f-ad7eba1f38c3_download-(1).png",
+            "alt": "download (1).png"
           }
         },
+        "finishDate": "2022-05-03",
         "linkedCompetences": [
           {
             "name": "Adobe Illustrator",
@@ -306,7 +348,7 @@
             "type": "technology"
           },
           {
-            "name": "SlqAlchemy",
+            "name": "SQLAlchemy",
             "type": "technology"
           },
           {
@@ -316,64 +358,39 @@
         ]
       },
       {
-        "studyType": "certification",
-        "degreeAchieved": true,
-        "name": "Curso de desarrollo de videojuegos",
-        "startDate": "2016-07-01",
-        "finishDate": "2017-08-01",
-        "institution": {
-          "name": "Gato Salvaje SL / Concello de A Coruña",
-          "description": "Participé en el 1er Curso de Desarrollo de Videojuegos, impartido por Gato Salvaje, en el que impartieron los fundamentos del desarrollo de desarrollo de videojuegos, modelado y animación 3d, marketing y monetización de aplicaciones. \n\nAl concluir el curso, inicié una fase de prácticas en el Vivero de Empresas del Papagayo, donde participé en el desarrollo de dos demos de videojuegos, en el departamento de UI/UX. ",
-          "image": {
-            "alt": "qiQBBJth_400x400.jpg",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/624041c4-b848-4ddd-86c2-dd2a9aea5051_qiqbbjth_400x400.jpg"
-          }
-        },
-        "linkedCompetences": [
-          {
-            "name": "Adobe Creative Suite",
-            "type": "technology"
-          },
-          {
-            "name": "Git",
-            "type": "technology"
-          },
-          {
-            "name": "Unreal",
-            "type": "technology"
-          }
-        ]
-      },
-      {
         "studyType": "officialDegree",
         "degreeAchieved": true,
         "name": "Técnico Superior en Diseño Gráfico",
         "startDate": "2010-01-10",
-        "finishDate": "2012-11-30",
         "institution": {
           "name": "CUMT",
           "description": "Colegio Universitario Monseñor de Talavera",
           "URL": "https://www.cumt.edu",
           "image": {
-            "alt": "logo del CUMT",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/ca7350a7-a9cf-447f-adc8-905e981bb002_16c70f_b67530659a844.jpg"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/ca7350a7-a9cf-447f-adc8-905e981bb002_16c70f_b67530659a844.jpg",
+            "alt": "logo del CUMT"
           }
+        },
+        "finishDate": "2012-11-30"
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Analytical thinking",
+          "type": "practice"
         }
       },
       {
-        "studyType": "officialDegree",
-        "degreeAchieved": true,
-        "name": "Contaduría Pública",
-        "startDate": "2002-09-15",
-        "finishDate": "2008-04-19",
-        "institution": {
-          "name": "UCV",
-          "description": "Universidad Central de Venezuela",
-          "URL": "https://www.ucv.ve/",
-          "image": {
-            "alt": "SelloUCV.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/609c41b8-94aa-445f-b24f-352002ec247e_selloucv.png"
-          }
+        "skill": {
+          "name": "Creative thinking",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Team management",
+          "type": "practice"
         }
       }
     ]
@@ -382,8 +399,16 @@
     "contact": {
       "publicProfiles": [
         {
-          "type": "linkedin",
-          "URL": "https://www.linkedin.com/in/jorgeluispardo/"
+          "URL": "https://www.linkedin.com/in/jorgeluispardo/",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/jorgepardor",
+          "type": "github"
+        },
+        {
+          "URL": "https://twitter.com/jorgepardor",
+          "type": "twitter"
         }
       ]
     },
@@ -412,38 +437,22 @@
         {
           "name": "Tailwind",
           "type": "technology"
-        },
-        {
-          "name": "agile",
-          "type": "technology"
         }
       ],
-      "discardedCompetences": [
-        {
-          "name": "cripto monedas",
-          "type": "technology"
-        },
-        {
-          "name": "industria armamentística",
-          "type": "technology"
-        },
-        {
-          "name": "juegos de azar",
-          "type": "technology"
-        },
-        {
-          "name": "nft",
-          "type": "technology"
-        },
-        {
-          "name": "partidos políticos",
-          "type": "technology"
-        },
-        {
-          "name": "tabaco",
-          "type": "technology"
-        }
+      "preferredRoles": [
+        "Frontend Developer",
+        "Full-stack Developer",
+        "Product Design (UI/UX)"
       ]
-    }
+    },
+    "status": "searchingActively"
+  },
+  "manfredSpecificData": {
+    "desiredJobDescription": "My ideal job would give me challenges that will allow me to utilize my creativity every day, and that will motivate me to grow and learn constantly.",
+    "bookmarks": [
+      {
+        "name": "https://fireship.io/"
+      }
+    ]
   }
 }

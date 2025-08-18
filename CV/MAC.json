@@ -241,22 +241,6 @@
     ],
     "studies": [
       {
-        "studyType": "officialDegree",
-        "degreeAchieved": true,
-        "name": "Contaduría Pública",
-        "startDate": "2002-09-15",
-        "institution": {
-          "name": "UCV",
-          "description": "Universidad Central de Venezuela",
-          "URL": "https://www.ucv.ve/",
-          "image": {
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/609c41b8-94aa-445f-b24f-352002ec247e_selloucv.png",
-            "alt": "SelloUCV.png"
-          }
-        },
-        "finishDate": "2008-04-19"
-      },
-      {
         "studyType": "certification",
         "degreeAchieved": true,
         "name": "Curso de desarrollo de videojuegos",

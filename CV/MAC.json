@@ -86,6 +86,50 @@
     "jobs": [
       {
         "organization": {
+          "name": "Ambar Partners SL",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/25/10/09/cb35cf59-ef71-43d2-92f3-4a35092fef0f_ambar-partners-logo.jpeg",
+            "alt": "Ambar Partners Logo.jpeg"
+          },
+          "URL": "https://www.ambarpartners.com/"
+        },
+        "roles": [
+          {
+            "name": "Frontend Developer",
+            "startDate": "2024-04-01",
+            "finishDate": "2025-08-01",
+            "challenges": [
+              {
+                "description": "Como frontend developer en Ambar trabajé en varios proyectos dentro del ecosistema digital de la empresa. El principal fue Ambar Hauss, una red social privada para una comunidad cerrada de abogados de alto nivel. También participé en el desarrollo del backoffice de administración, donde el equipo construyó una herramienta avanzada de matching entre perfiles y oportunidades.\nStack principal: Vue.js, TailwindCSS, Turbo, JavaScript y MJML.\n\nResponsabilidades destacadas:\n\n* Desarrollo de interfaces desde cero, enfocadas en claridad, rendimiento y experiencia de usuario.\n* Uso intensivo de composables para estructurar lógica compartida y mantener un código limpio y escalable.\n* Integración con APIs REST diseñadas por el equipo backend.\n* Implementación de componentes reutilizables: formularios dinámicos, listas complejas, filtros, tooltips, etc.\n* Desarrollo de plantillas de correo con MJML, integradas en los flujos internos de notificación.\n* Colaboración directa con diseño y producto para definir e iterar flujos."
+              }
+            ],
+            "competences": [
+              {
+                "name": "AWS",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Tailwind",
+                "type": "technology"
+              },
+              {
+                "name": "Vite",
+                "type": "technology"
+              },
+              {
+                "name": "Vue",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
           "name": "Anjana Investments SL",
           "URL": "https://www.linkedin.com/company/anjana-investments-s.l./"
         },

@@ -236,6 +236,43 @@
           }
         ]
       }
+    ],
+    "projects": [
+      {
+        "details": {
+          "name": "EnPlancê",
+          "description": "EnPlancê es una aplicación de gestión integral para negocios de cocina y servicios de catering. Permite administrar ingredientes, recetas, costes y menús, con control detallado de escandallos y presupuestos. Integra roles para personal de cocina, administración y clientes. Su diseño modular la hace adaptable a restaurantes, eventos y otros servicios gastronómicos.EnPlancê es una aplicación de gestión integral para negocios de cocina y servicios de catering. Permite administrar ingredientes, recetas, costes y menús, con control detallado de escandallos y presupuestos. Integra roles para personal de cocina, administración y clientes. Su diseño modular la hace adaptable a restaurantes, eventos y otros servicios gastronómicos.\n"
+        },
+        "type": "sideProject",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2024-07-01",
+            "competences": [
+              {
+                "name": "Java",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Tailwind",
+                "type": "technology"
+              },
+              {
+                "name": "Vite",
+                "type": "technology"
+              },
+              {
+                "name": "Vue",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   "knowledge": {
@@ -547,6 +584,11 @@
       }
     ],
     "desiredJobDescription": "My ideal job would give me challenges that will allow me to utilize my creativity every day, and that will motivate me to grow and learn constantly.",
+    "projects": [
+      {
+        "name": "EnPlancê"
+      }
+    ],
     "bookmarks": [
       {
         "name": "https://fireship.io/"

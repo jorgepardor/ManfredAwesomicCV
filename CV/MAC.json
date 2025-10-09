@@ -86,6 +86,54 @@
     "jobs": [
       {
         "organization": {
+          "name": "Anjana Investments SL",
+          "URL": "https://www.linkedin.com/company/anjana-investments-s.l./"
+        },
+        "roles": [
+          {
+            "name": "Frontend Developer",
+            "startDate": "2022-05-01",
+            "finishDate": "2024-03-01",
+            "challenges": [
+              {
+                "description": "Participé en el rediseño de Autingo.es, un portal de servicios de reparación y mantenimiento de vehículos. Me encargué del desarrollo de las distintas vistas del sitio, cuidando tanto la maquetación como la integración con el backend.\n\nAdemás, colaboré en Aurgi.com y Motortown.es, donde me ocupé de la creación de segmentos de las webs, resolución de bugs, ajustes visuales y pequeñas mejoras funcionales.\n\nStack utilizado: Ruby on Rails, JavaScript, SASS y Bootstrap.\n\nResponsabilidades:\n* Maquetación responsive y desarrollo de vistas para Autingo.es.\n* Integración de componentes con vistas y controladores en Rails.\n* Corrección de incidencias visuales y de comportamiento en varios entornos productivos.\n* Ajuste de interfaces según criterios de diseño y feedback del equipo de diseño."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Bootstrap",
+                "type": "technology"
+              },
+              {
+                "name": "Figma",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "Ruby on Rails",
+                "type": "technology"
+              },
+              {
+                "name": "Sass",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
           "name": "Gato Salvaje Studio",
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/05/04/c609827d-b250-44ad-8894-0e75e8fffc43_qiqbbjth_400x400.jpg",

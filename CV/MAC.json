@@ -75,10 +75,6 @@
       {
         "type": "github",
         "URL": "https://github.com/jorgepardor"
-      },
-      {
-        "type": "twitter",
-        "URL": "https://twitter.com/jorgepardor"
       }
     ]
   },
@@ -512,10 +508,6 @@
         {
           "URL": "https://github.com/jorgepardor",
           "type": "github"
-        },
-        {
-          "URL": "https://twitter.com/jorgepardor",
-          "type": "twitter"
         }
       ]
     },
